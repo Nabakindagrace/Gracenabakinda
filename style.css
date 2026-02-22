@@ -1,8 +1,16 @@
-*{
+/* *{
  background-color:gainsboro
 
+} */
+.Name{
+    color:cornflowerblue
 }
-
 h2{
     color: blueviolet;
+}
+.Likes{
+    background-color:aliceblue
+}
+.Follow{
+    color: brown;
 }
