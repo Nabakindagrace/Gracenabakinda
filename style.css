@@ -2,6 +2,10 @@
  background-color:gainsboro
 
 } */
+  /* *{
+    margin:0;
+    padding:0;
+ } */
 .Name{
     color:cornflowerblue
 }
@@ -13,4 +17,32 @@ h2{
 }
 .Follow{
     color: brown;
+}
+
+/* My flexbox properties */
+.container{
+    background-color: rgb(245, 248, 248);
+    text-align: center;
+    border-style: outset;
+    border-radius: 20px;
+    border-width: 1px;
+    margin: 20px 50px ;
+    padding: 50px;
+    box-sizing: border-box;
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+
+ .img{
+  border: 1px solid #ddd;
+  border-radius: 300px;
+  width: 100px;
+  height: 100px;
+ }
+
+}
+.child{
+    background-color: antiquewhite;
+    display: flex;
+    /* flex-direction: row;
+    gap: 50px; */
+    justify-content: space-between;
 }
