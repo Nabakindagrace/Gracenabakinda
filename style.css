@@ -30,6 +30,7 @@ h2{
     padding: 50px;
     box-sizing: border-box;
     box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
 
  .img{
   border: 1px solid #ddd;
@@ -38,11 +39,30 @@ h2{
   height: 100px;
  }
 
-}
+ /* My flexbox properties */
+/* .Container{
+    background-color: rgb(223, 235, 235);
+} */
 .child{
     background-color: antiquewhite;
+    border: 2px green solid;
     display: flex;
     /* flex-direction: row;
     gap: 50px; */
     justify-content: space-between;
+}
+.blue-container{
+    border:1px blue solid;
+    display: flex;
+    /* flex-direction: column; */
+    flex-direction: column;
+}
+.flex-item{
+     border: 1px orangered solid;
+     margin: 5px;
+     height: 80px;
+     width: 50px;
+}
+.mine{
+    color: blue;
 }
