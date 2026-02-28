@@ -69,13 +69,17 @@ h2{
 .mine{
     color: blue;
 }
-img{
+/* img{
 
     height: 30px;
     width: 30px;
     border-radius: 70%;
-}
+} */
 .last{
     border: 1px gray solid;
     display: flex;
+}
+/* Bootstrap work */
+.chicken{
+     background-color: aqua;
 }
