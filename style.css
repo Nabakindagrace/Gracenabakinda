@@ -56,13 +56,26 @@ h2{
     display: flex;
     /* flex-direction: column; */
     flex-direction: column;
+    align-items: center;
 }
 .flex-item{
      border: 1px orangered solid;
      margin: 5px;
      height: 80px;
      width: 50px;
+    
+     
 }
 .mine{
     color: blue;
+}
+img{
+
+    height: 30px;
+    width: 30px;
+    border-radius: 70%;
+}
+.last{
+    border: 1px gray solid;
+    display: flex;
 }
